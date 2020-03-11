@@ -2,6 +2,18 @@ import shutil
 import os
 
 
+def touch_file(self):
+    file = open(self, 'w')
+    file.close()
+    print('this is fun touch_file()')
+
+
+touch_file('/Users/creed/a2')
+
+if __name__ == '__main__':
+    print('this is file.py')
+
+
 # 新建文件
 def mk_file(self):
     f = open(os.getcwd() + '/' + self, 'w')
