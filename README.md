@@ -12,3 +12,4 @@
 2、重命名/移动文件 shutil.move() \
 3、复制文件 shutil.copy() shutil.copy2() shutil.copytree() \
 4、删除文件 shutil.remove()
+)
